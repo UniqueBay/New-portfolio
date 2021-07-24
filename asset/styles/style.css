@@ -93,10 +93,6 @@ main {
   height: 100%;
 }
 
-.about .title article > li {
-  text-decoration: none;
-}
-
 .about {
   margin: 50px;
 }
@@ -115,6 +111,10 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about .title article li ol {
+  text-decoration: none;
 }
 
 .form {
