@@ -85,15 +85,19 @@ h2 {
   }
 
   .about > p {
-  font-size: 25px;
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
-}
+    font-size: 25px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
 
   .service {
     display: block;
+  }
+  
+  .skills-bar {
+    width: 90%;
   }
 }
