@@ -11,45 +11,139 @@
       href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     />
     <!-- Styling -->
-    <link rel="stylesheet" href="/asset/styles/style.css" />
+    <!-- <link rel="stylesheet" href="/asset/styles/style.css" /> -->
+    <link rel="stylesheet" href="/asset/styles/layout.css" />
+    <link rel="stylesheet" href="/asset/styles/navbar.css" />
+    <link rel="stylesheet" href="/asset/styles/about.css" />
+    <link rel="stylesheet" href="/asset/styles/footer.css" />
   </head>
   <body>
     <div class="container">
       <header class="container__header">
-        <header>
-          <nav>
-            <div class="logo-wrapper">
-              <a href="./index.html" class="logo">
-                <img src="./asset/img/logo.png" alt="logo" />
-              </a>
-            </div>
-            <div class="nav-items" id="nav-item">
-              <a href="./index.html" class="nav-links">Home</a>
-              <a href="#" class="nav-links">About</a>
-              <a href="./work.html" class="nav-links">Skills</a>
-              <a href="./contact.html" class="nav-links">Contact</a>
-            </div>
-            <div class="hamburger-wrapper" id="menu" onclick="toggleNavbar()">
-              <i class="hamburger fas fa-bars"></i>
-            </div>
-          </nav>
-        </header>
+        <nav>
+          <div class="logo-wrapper">
+            <a href="./index.html" class="logo">
+              <img src="./asset/img/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="nav-items" id="nav-items">
+            <a href="./index.html" class="nav-links">Home</a>
+            <a href="#" class="nav-links">About</a>
+            <a href="./work.html" class="nav-links">Work</a>
+            <a href="./contact.html" class="nav-links">Contact</a>
+          </div>
+          <div class="hamburger-wrapper" id="menu" onclick="toggleNavbar()">
+            <i class="hamburger fas fa-bars"></i>
+          </div>
+        </nav>
       </header>
       <main class="container__main">
+        <h2>About Abayomi</h2>
         <div class="about">
-          <header class="title">
-            <h2>About Abayomi</h2>
-          </header>
-          <article>
-            Hi again, My name is Abayomi Alabi, and i'm a Front-End Developer,
-            before that am just some guy who loves solving Maths problem,
-            Puzzles and Maze anywhere i can find them. Basically am just an
-            addicted problem solver in love with Anime and Dogs.! Wanna talk
-            about something interesting, be sure to hit me up on any of those
-            social media links.
-          </article>
+          <p>
+            Hi again, My name is Abayomi Alabi. I’ve been passionate about the
+            Internet of Things since I was a kid. I took over my mum's laptop
+            just a few weeks after she got it new, it was more fun than playing
+            games and exploring what the system was about. My curiosity won me a
+            discount scholarship at NIIT to study Web Development just after
+            high school. I knew then that I wanted to pursue a career as a
+            Software Developer. I studied computer science at Les Cours Sonou
+            University. Since college, I have upped my skill with the Google
+            Africa Developer Scholarship (GADS). During my time there I’ve been
+            able to build myself through building both Web and Mobile App using
+            HTML, CSS, and Javascript. Am currently a Front-end developer
+            trainee at Tiidelab Bootcamp. My experience in this program has
+            built up my proficiencies in billing and cutting edge technologies
+            such as React JS, and Bootstrap. The most rewarding part of this
+            program was working with a team of developers on cutting-edge
+            projects. This experience has familiarized me with hands-on
+            best-in-class building technology. Before all that am just some guy
+            who loves solving Maths problem, Puzzles and Maze anywhere i can
+            find them. Basically am just an addicted problem solver in love with
+            Anime and Dogs!
+          </p>
+          <div class="my-image">
+            <img src="./asset/img/about1.png" alt="abayomi image" />
+          </div>
         </div>
       </main>
+      <div id="skill">
+        <div class="technical-skills">
+          <div class="skills-title">
+            <h2>Skills</h2>
+          </div>
+          <div class="skills-bar">
+            <div class="bar">
+              <div class="info2">
+                <span>HTML</span>
+              </div>
+              <div class="progress-line html"><span></span></div>
+            </div>
+            <div class="bar">
+              <div class="info2">
+                <span>CSS</span>
+              </div>
+              <div class="progress-line css"><span></span></div>
+            </div>
+            <div class="bar">
+              <div class="info2">
+                <span>Javascript</span>
+              </div>
+              <div class="progress-line Javascript"><span></span></div>
+            </div>
+            <div class="bar">
+              <div class="info2">
+                <span>GitHub</span>
+              </div>
+              <div class="progress-line github"><span></span></div>
+            </div>
+            <div class="bar">
+              <div class="info2">
+                <span>Git</span>
+              </div>
+              <div class="progress-line git"><span></span></div>
+            </div>
+            <div class="bar">
+              <div class="info2">
+                <span>Netlify</span>
+              </div>
+              <div class="progress-line netlify"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2>Services</h2>
+      <div class="service">
+        <div class="skills-bar mini">
+          <h3 class="s-title">Web Design</h3>
+          <p>
+            I design award winning websites that encourage your visitors to take
+            the actions needed to meet your online objectives. I design my
+            websites to be responsive, delivering optimum performance and
+            visuals for all devices. This means basically means that each of
+            your users will get a tailored browsing experience for Desktop,
+            iphone, Android and Tablet PC like the iPad.
+          </p>
+        </div>
+        <div class="skills-bar mini">
+          <h3 class="s-title">Interface Design</h3>
+          <p>
+            My design does not only look beautiful, they actually work. I
+            consider every detail from user experience and accessibility to
+            search engine optimization. With this level of details, you get the
+            right result time after time.
+          </p>
+        </div>
+        <div class="skills-bar mini">
+          <h3 class="s-title">Application</h3>
+          <p>
+            Think it all about Websites? No!!!❌ We apply the same creativity
+            and details to stunning mobile applications.😋
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer -->
       <footer class="container__footer">
         <div class="icons">
           <a href="https://www.facebook.com/abayomi.alabi.718">
@@ -68,5 +162,8 @@
         <strong>Developer: Abayomi Alabi(UniqueBay🌹)</strong>
       </footer>
     </div>
+
+    <!-- Javascript files -->
+    <script src="/asset/js/main.js"></script>
   </body>
 </html>

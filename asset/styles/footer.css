@@ -1,0 +1,39 @@
+/* Footer */
+.container__footer {
+  text-align: center;
+  padding: 10px;
+  font-size: x-large;
+  background: #172c3a;
+  color: #eca458;
+}
+
+.container__footer .icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.container__footer .icons a i {
+  text-decoration: none;
+  color: #eca458;
+}
+
+.fa-facebook-f:hover {
+  color: blue;
+  transition: ease-in-out;
+}
+
+.fa-twitter:hover {
+  color: skyblue;
+  transition: ease-in-out;
+}
+
+.fa-github-alt:hover {
+  color: #000;
+  transition: ease-in-out;
+}
+
+.fa-linkedin-in:hover {
+  color: blue;
+  transition: ease-in-out;
+}
