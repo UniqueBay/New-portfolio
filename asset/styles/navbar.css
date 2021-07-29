@@ -42,7 +42,7 @@ nav {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 680px) {
   nav {
     display: flex;
     justify-content: space-between;
