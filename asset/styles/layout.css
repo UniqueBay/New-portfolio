@@ -40,11 +40,25 @@ a {
   border: 2px solid #000000;
   background: #000000;
   background: linear-gradient(to top, #000000, #79353b);
+  cursor: pointer;
 }
 
 .btn:hover {
   color: #79353b !important;
   background: #000000;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  color: #79353b !important;
 }
 
 .technical-skills {

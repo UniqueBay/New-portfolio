@@ -22,9 +22,14 @@ body {
 }
 
 .info h1 {
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 500;
   line-height: 1;
+}
+
+.shf {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .info p {
@@ -32,12 +37,29 @@ body {
   color: #000;
 }
 
-.info span {
-  font-size: 40px;
+.anime {
+  transform: translate(-50%,-50%);
+  background: linear-gradient(to right, #79353b 0, #000 10%, #79353b 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
 }
+    
+@keyframes shine{
+  0% {background-position: 0;}
+  60% {background-position: 180px;}
+  100% {background-position: 180px;}
+  }
 
 .info strong {
-  font-size: 65px;
+  font-size: 50px;
 }
 
 .change {
