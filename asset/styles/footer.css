@@ -3,8 +3,8 @@
   text-align: center;
   padding: 10px;
   font-size: x-large;
-  background: #172c3a;
-  color: #eca458;
+  background: #000;
+  color: #79353b;
 }
 
 .container__footer .icons {
@@ -15,25 +15,25 @@
 
 .container__footer .icons a i {
   text-decoration: none;
-  color: #eca458;
+  color: #79353b;
 }
 
 .fa-facebook-f:hover {
-  color: blue;
+  color: blue !important;
   transition: ease-in-out;
 }
 
 .fa-twitter:hover {
-  color: skyblue;
+  color: skyblue !important;
   transition: ease-in-out;
 }
 
 .fa-github-alt:hover {
-  color: #000;
+  color: #fff !important;
   transition: ease-in-out;
 }
 
 .fa-linkedin-in:hover {
-  color: blue;
+  color: blue !important;
   transition: ease-in-out;
 }

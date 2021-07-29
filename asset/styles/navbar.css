@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px 200px;
-  background-color: #172c3a;
+  background-color: #000000;
   transition: 0.3s ease;
 }
 
@@ -11,20 +11,18 @@ nav {
   font-size: 18px;
   padding: 20px;
   text-decoration: none;
-  color: #debb97;
+  color: #79353b;
 }
 
 .nav-items .nav-links:hover {
-  background-color: #65b9d8;
-  color: #172c3a;
+  background-color: #79353b;
+  color: #000000;
   border-radius: 5px;
 }
 
 .logo-wrapper .logo img {
   width: 60px;
   height: 60px;
-  /* font-size: 25px; */
-  color: #eca458;
 }
 
 /* Hide hamburger by Default */
@@ -51,7 +49,7 @@ nav {
 
   .hamburger-wrapper {
     display: block;
-    color: #eca458;
+    color: #79353b;
     cursor: pointer;
     font-size: 25px;
   }

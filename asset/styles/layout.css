@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Layout styling */
 .container {
   display: flex;
@@ -18,6 +22,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  font-family: verdana;
+  color: #63bcda !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #000000;
+  box-shadow: 1px 1px 1px #000000;
+  padding: 10px 25px;
+  border-radius: 24px;
+  border: 2px solid #000000;
+  background: #000000;
+  background: linear-gradient(to top, #000000, #79353b);
+}
+
+.btn:hover {
+  color: #79353b !important;
+  background: #000000;
 }
 
 .technical-skills {
@@ -52,14 +79,14 @@
   position: relative;
   height: 10px;
   width: 100%;
-  background: #386c8f;
+  background: #000;
   border-radius: 10px;
 }
 
 .skills-bar .bar .progress-line span {
   height: 100%;
   width: 80%;
-  background: #172c3a;
+  background: #79353b;
   position: absolute;
   border-radius: 10px;
 }
@@ -85,34 +112,14 @@
 
 .skills-bar .bar .progress-line span::after {
   position: absolute;
-  content: "80%";
   right: 0;
   top: -28px;
   background: #000;
-  color: #65b9d8;
+  color: #79353b;
   font-size: 20px;
   font-weight: 500;
   padding: 1px 4px;
   border-radius: 3px;
-}
-
-.skills-bar .bar .progress-line.html span::after {
-  content: "80%";
-}
-.skills-bar .bar .progress-line.css span::after {
-  content: "70%";
-}
-.skills-bar .bar .progress-line.javascript span::after {
-  content: "50%";
-}
-.skills-bar .bar .progress-line.github span::after {
-  content: "80%";
-}
-.skills-bar .bar .progress-line.git span::after {
-  content: "70%";
-}
-.skills-bar .bar .progress-line.netlify span::after {
-  content: "90%";
 }
 
 @media (max-width: 980px) {
