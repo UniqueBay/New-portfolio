@@ -116,4 +116,8 @@ h2 {
   .skills-bar {
     width: 90%;
   }
+
+  .my-image {
+    display: none;
+  }
 }

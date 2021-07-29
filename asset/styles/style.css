@@ -22,8 +22,8 @@ body {
 }
 
 .info h1 {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 600;
   line-height: 1;
 }
 
@@ -70,6 +70,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .s-title {
   display: flex;
   align-items: center;
